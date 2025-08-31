@@ -11,4 +11,7 @@ public interface ITransactionService {
     public ResponseEntity<?> getTransactionBookId(String bookId);
     public ResponseEntity<?> getTransactionUserId(String userId);
     public ResponseEntity<?> deleteTransaction(Long id);
+
+    public ResponseEntity<?> getTransactionAll();
+
 }

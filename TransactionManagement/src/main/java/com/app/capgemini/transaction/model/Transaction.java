@@ -14,6 +14,7 @@ public class Transaction {
     private String bookId;
     private LocalDate issueDate;
     private LocalDate returnDate;
+    private String status;
     private Double fine;
 
     public Long getId() {
@@ -62,5 +63,14 @@ public class Transaction {
 
     public void setFine(Double fine) {
         this.fine = fine;
+    }
+
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }
